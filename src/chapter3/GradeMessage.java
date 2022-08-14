@@ -39,6 +39,19 @@ public class GradeMessage {
                 break;
         }
 
+/* NEW SWITCH IN JAVA:
+
+        String message = switch (grade) {
+            case "A" -> "Excellent job!";
+            case "B" -> "Great job!";
+            case "C" -> "Good job!";
+            case "D" -> "You need to work a bit harder";
+            case "E" -> "Oh-oh";
+            case "F" -> "Uh";
+            default -> "Error! Invalid grade";
+        };
+*/
+
         System.out.println(message);
     }
 }
