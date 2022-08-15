@@ -1,5 +1,9 @@
 #IntelliJ
-.idea
+.idea/sonalint/*
+.idea/*.xml
+.idea/.*
 
 #Java
 *.class
+
+*.iml
