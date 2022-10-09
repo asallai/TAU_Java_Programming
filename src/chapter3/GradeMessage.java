@@ -39,7 +39,7 @@ public class GradeMessage {
                 break;
         }
 
-/* NEW SWITCH IN JAVA:
+/* NEW SWITCH IN JAVA 14:
 
         String message = switch (grade) {
             case "A" -> "Excellent job!";
@@ -48,7 +48,7 @@ public class GradeMessage {
             case "D" -> "You need to work a bit harder";
             case "E" -> "Oh-oh";
             case "F" -> "Uh";
-            default -> "Error! Invalid grade";
+            default  -> "Error! Invalid grade";
         };
 */
 
